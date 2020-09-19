@@ -24,9 +24,10 @@ a:link,a:visited {color:black}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /* Обнуление */
 body{
+  height: auto;
   background: url('https://images.wallpaperscraft.com/image/spruce_branch_thorn_macro_107760_1920x1080.jpg') no-repeat center /cover;
 }
 .block{
-  height: calc(100vh - 110px);
+  height: calc(100vh - 90px);
   margin: 20px 0px 0px 0px ;
 }
