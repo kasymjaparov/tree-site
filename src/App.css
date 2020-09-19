@@ -6,7 +6,7 @@ box-sizing: border-box;}
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
-html,body{font-family: 'Kumbh Sans', sans-serif;
+html,body{font-family: 'Yanone Kaffeesatz', sans-serif;
 height: 100%;width: 100%;font-size: 100%;line-height: 1;
 font-size: 14px;
 -ms-text-size-adjust: 100%;

@@ -6,6 +6,7 @@ import Appcontainer from './Appcontainer'
 import Block from './Block'
 import Request from './components/Contact/index'
 import Footer from './components/Footer/index'
+import Dostavka from './components/Dostavka/index'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <Block>
        <Switch>
          <Route path='/request' component={Request} exact/>
+         <Route path='/dostavka' component={Dostavka} exact/>
        </Switch>
      </Block>
      <Footer/>
