@@ -34,6 +34,6 @@ body{
   margin: 0px 0px 0px 0px ;
   display: flex;
   align-items: center;
-  /* background: url('./img/back.jpg') no-repeat center /cover; */
-  background: url('./img/back.jpg') repeat center;
+  background: url('./img/back.jpg') round ;
+  
 }
