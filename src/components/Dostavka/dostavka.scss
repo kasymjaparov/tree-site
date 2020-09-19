@@ -17,7 +17,7 @@ color:#000000;
 padding: 20px 0px 0px 0px ;
 font-size: 40px;
 text-align:  center;
-animation: glowh 1.5s ease-in-out infinite alternate;
+font-weight: 700;
 
 }
 .dostavka_desc1{
@@ -45,9 +45,4 @@ animation: glowh 1.5s ease-in-out infinite alternate;
     }
   }
 
-  @keyframes glowh {
-    100% {
-      text-shadow: 0 0 1px #fff, 0 0 4px #fff, 0 0 7px #fff, 0 0 10px #fff, 0 0 13px #fff, 0 0 16px #fff, 0 0 19px #fff;
-    }
-    
-  }
+ 
