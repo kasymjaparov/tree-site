@@ -35,5 +35,5 @@ body{
   display: flex;
   align-items: center;
   /* background: url('./img/back.jpg') no-repeat center /cover; */
-  background: url('https://image.freepik.com/free-vector/silhouettes-pines-pack_23-2147527150.jpg') repeat;
+  background: url('./img/back.jpg') repeat center;
 }
