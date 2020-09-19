@@ -7,7 +7,7 @@
 }
 .dostavka h2{
 color:#000000;
-padding: 20px 0px 0px 0px ;
+padding: 20px 2px 0px 2px ;
 font-size: 40px;
 text-align:  center;
 font-weight: 700;
@@ -32,7 +32,20 @@ font-weight: 700;
     .dostavka{
         width: 98%;    
     }
+    .dostavka{
+      box-shadow: 0 0 0;
+    }
     
+}
+@media(max-width:350px){
+ 
+  .dostavka h2{
+    font-size: 25px;
+    padding: 5px 0px 0px 0px ;
+    }
+    .dostavka_desc1{
+        font-size: 15px;
+    }
 }
 
 
