@@ -7,8 +7,7 @@ box-sizing: border-box;}
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 html,body{font-family: 'Yanone Kaffeesatz', sans-serif;
-height: 100%;width: 100%;font-size: 100%;line-height: 1;
-font-size: 14px;
+width: 100%;font-size: 100%;line-height: 1;
 -ms-text-size-adjust: 100%;
 -moz-text-size-adjust: 100%;
 -webkit-text-size-adjust: 100%;}
@@ -24,10 +23,14 @@ a:link,a:visited {color:black}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /* Обнуление */
 body{
-  height: auto;
-  background: url('https://images.wallpaperscraft.com/image/spruce_branch_thorn_macro_107760_1920x1080.jpg') no-repeat center /cover;
+  height: 100vh;
+ 
 }
+
 .block{
-  height: calc(100vh - 90px);
-  margin: 20px 0px 0px 0px ;
+  background-size: 100%;
+  background-attachment: fixed;
+  height: calc(100vh - 160px);
+  margin: 0px 0px 0px 0px ;
+  background: url('https://images.wallpaperscraft.com/image/spruce_branch_thorn_macro_107760_1920x1080.jpg') no-repeat center /cover;
 }
