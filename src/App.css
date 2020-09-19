@@ -32,5 +32,8 @@ body{
   background-attachment: fixed;
   height: calc(100vh - 160px);
   margin: 0px 0px 0px 0px ;
-  background: url('https://images.wallpaperscraft.com/image/spruce_branch_thorn_macro_107760_1920x1080.jpg') no-repeat center /cover;
+  display: flex;
+  align-items: center;
+  /* background: url('./img/back.jpg') no-repeat center /cover; */
+  background: url('https://image.freepik.com/free-vector/silhouettes-pines-pack_23-2147527150.jpg') repeat;
 }
