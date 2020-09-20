@@ -4,10 +4,11 @@
    height: 90%;
     width: 50%;
     margin: 0 auto 0 auto ;
+    border-radius: 5px;
 }
 .dostavka h2{
 color:#000000;
-padding: 20px 2px 0px 2px ;
+padding: 20px 0px 0px 0px ;
 font-size: 40px;
 text-align:  center;
 font-weight: 700;
@@ -19,14 +20,17 @@ font-weight: 700;
   text-align: center;
   font-weight: 600;
   line-height: 30px;
-  animation: glow 1.5s ease-in-out infinite alternate;
-  
 }
+.dostavka_wrap{
+  width: 90%;
+  margin: 0 auto 0 auto ;
+}
+
+
 @media(max-width:850px){
   .dostavka{
       width: 70%;    
   }
-  
 }
 @media(max-width:527px){
     .dostavka{
@@ -35,6 +39,9 @@ font-weight: 700;
     .dostavka{
       box-shadow: 0 0 0;
     }
+    .dostavka h2{
+      padding: 5px 0px 0px 0px ;
+      }
     
 }
 @media(max-width:350px){
@@ -49,13 +56,6 @@ font-weight: 700;
 }
 
 
-@keyframes glow {
-    from {
-      text-shadow: 0 0 1px #fff, 0 0 4px #fff, 0 0 7px #5067ce, 0 0 10px #5067ce, 0 0 13px #5067ce, 0 0 16px #5067ce, 0 0 19px #5067ce;
-    }
-    to {
-      text-shadow: 0 0 1px #fff, 0 0 4px #4dff7a, 0 0 7px #4dff7a, 0 0 10px #4dff7a, 0 0 13px #4dff7a, 0 0 16px #4dff7a, 0 0 19px #4dff7a;
-    }
-  }
+
 
  

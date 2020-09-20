@@ -1,7 +1,8 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 .contact{
     z-index: 2;
     width: 100%;
-    height: calc(100vh - 110px - 50px);
+    height: 90%;
     margin: 0px 0 0px 0;
    display: flex;
    justify-content: center;
@@ -18,10 +19,11 @@ position: relative;
     width: 50%;
     height: 100%;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px black;
+position: relative;
 }
 .contacth2{
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   margin: 20px 0 35px 0;
     display: flex;
@@ -30,14 +32,11 @@ position: relative;
 .modal{
     position: absolute;
     width: 100%;
-    height: 102%;
-    background: rgb(255, 255, 255);
-    left: 0;
-    top: 0;
+    height: 100%;
+    left: 0;top: 0;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-    font-family: "Montserrat";
-    margin: -5px 0 0 0;
+    background: white;
+    margin: 0 0 0 0;
 }
 
 .modalh2{
@@ -50,25 +49,8 @@ position: relative;
     padding: 0 4px 0 4px;
     line-height: 20px;
 }
-.animation{
-    margin-left: 20px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-@media(max-width:987px){
-    .contactWrap{
-        width: 75%;
-    }
-}
-@media(max-width:527px){
-    .contactWrap{
-        width: 100%;
-    }
-    .name input{
-        font-size: 14px;
-    }
-}
+
+
 
 .contactContainer{
     width: 90%;
@@ -79,31 +61,36 @@ position: relative;
     width: 100%;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
-    margin: 0 0 30px 0;
+    margin: 0 0 25px 0;
 }
-.name img{
+.name:nth-child(3){
+    margin: 0 0 10px 0;
+}
+.name>div{
     margin: 3px 5px 0 10px;
-    width: 30px;
-    height: 30px;
+   font-size: 20px;
+  
 }
+.name:nth-child(1)>div{
+   color: rgb(101, 0, 126);
+}
+.name:nth-child(3)>div{
+    color: rgb(103, 68, 255);
+ }
+ .name:nth-child(2)>div{
+    color: rgb(67, 174, 201);
+    
+ }
+
 .name input{
     height: 100%;
     font-size: 20px;
     width: calc(100% - 65px);
+    padding: 10px;
 }
 
 .name input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: black;
-  }
-  .name + textarea{
-      resize: none;
-      width: 100%;
-      height: 120px;
-  }
-  .name +textarea::placeholder{
-      color: black;
-      padding-bottom: 105px;
-      border-bottom: 1px solid black;
   }
   .contact button{
     background-color: #378C3F;
@@ -117,4 +104,30 @@ position: relative;
   .warning{
       margin: 10px 0 0 0;
       color: rgb(30, 109, 173);
+  }
+  @media(max-width:987px){
+    .contactWrap{
+        width: 75%;
+    }
+}
+@media(max-width:527px){
+    .contactWrap{
+        width: 100%;
+    }
+    .name input{
+        font-size: 18px;
+    }
+    .contactWrap{
+
+        box-shadow: 0 0 0;
+        
+    }
+}
+@media(max-width:350px){
+ 
+    .contacth2{
+      font-size: 25px;
+  margin-top: 5px;
+      }
+     
   }

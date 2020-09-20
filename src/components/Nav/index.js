@@ -11,43 +11,6 @@ function App() {
     <NavLink className={classes.logo} to='/' exact><img src={tree} alt="Xmas tree"/></NavLink>
     <Menu />
     </div>
-    <ul className={classes.lightrope}>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li><li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li><li></li>
-  <li></li>
-  <li></li><li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
     </div>
   )
 }
