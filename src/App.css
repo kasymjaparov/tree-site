@@ -32,7 +32,7 @@ body{
   margin: 0px 0px 0px 0px ;
   display: flex;
   align-items: center;
-  background: wheat;
+  background: rgb(247, 234, 210);
 }
 .animation{
   margin-left: 20px;

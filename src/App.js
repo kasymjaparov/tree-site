@@ -7,6 +7,7 @@ import Block from './Block'
 import Request from './components/Contact/index'
 import Footer from './components/Footer/index'
 import Dostavka from './components/Dostavka/index'
+import Nopage from './components/NoPage'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
        <Switch>
          <Route path='/request' component={Request} exact/>
          <Route path='/dostavka' component={Dostavka} exact/>
+         {/* <Route  component={Nopage} /> */}
        </Switch>
      </Block>
      <Footer/>

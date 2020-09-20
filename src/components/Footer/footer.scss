@@ -1,14 +1,36 @@
-.footer span{
-    display: block;
-}
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 .footer{
     padding: 10px 0px 0px 0px ;
     background: #000;
-    // height: 70px;
-text-align: center;
-font-size: 14px;
-color: white;
-line-height: 12px;
     width: 100%;
-    margin: 0px 0px -10px 0px ;
+    height: 82px;
+    // margin: 0px 0px -10px 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_refs{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_refs span{
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.footer_refs span a{
+    color: rgb(100, 99, 99);
+}
+.footer_refs span  i{
+    transition: all 0.3s ease;
+}
+.footer_refs span:nth-child(2) i:hover{
+    color: green;
+}
+.footer_refs span:nth-child(1) i:hover{
+    color: rgb(128, 0, 70);
+}
+.footer_refs span:nth-child(3) i:hover{
+    color: rgb(70, 102, 207);
 }

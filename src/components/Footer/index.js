@@ -4,9 +4,12 @@ import './footer.scss'
 function App() {
   return (
    <footer className='footer'>
-<span>Режим работы:</span>  <br/>
-<span>ПН-ПТ с 9-00 до 20-00 без обеда</span>  <br/>
-<span>Сб,Вс с 10-00 до 20-00 без обеда</span>  <br/>
+     <div className="footer_refs">
+     <span><a target='_blank' rel="noopener noreferrer" href='https://www.instagram.com/adilet.exe/'><i className='fa fa-instagram'></i></a></span>
+<span><a target='_blank' rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=+996704614512'><i className='fa fa-whatsapp'></i></a ></span>
+<span><a target='_blank' rel="noopener noreferrer" href='tel:+996704614512'><i className='fa fa-phone'></i></a ></span>
+     </div>
+
    </footer>
   )
 }
