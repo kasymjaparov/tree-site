@@ -20,7 +20,7 @@ a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 a:link,a:visited {color:black}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+h1,h2,h3,h4,h5,h6{font-weight: 400;}
 /* Обнуление */
 body{
   height: 100vh;
@@ -47,7 +47,7 @@ svg{
   height: 25rem;
   max-height: 80vh;
   max-width: 80vw;
-  margin-top: 0;
+ margin-top: 0;
 }
 
 .ear,
@@ -381,5 +381,11 @@ svg{
   60%,
   90% {
     transform: scaleX(1.1) translateX(4%);
+  }
+}
+@media(max-width:350px){
+
+  .sausage-dog-animation {
+   margin-top: -70px;
   }
 }

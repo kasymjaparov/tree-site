@@ -2,29 +2,29 @@ import React from 'react'
 import NumberFormat from 'react-number-format';
 import classes from './classes.module.css'
 import Animation from './Animation'
+import point from '../../point.js'
 import shortid from 'shortid'
 
 function App() {
   const[username, setUsername]=React.useState('')
-  const[subject, setSubjectI]=React.useState('')
-  const[message, setMessage]=React.useState('')
+  const[number, setNumber]=React.useState('')
   const [todo, setTodo] = React.useState([])
   const [isSend, setIsSend] = React.useState(false)
 
   React.useEffect(() => {
-  fetch(`fef/list`)
+  fetch(`${point}/list`)
       .then((response) => response.json())
       .then((data) => setTodo(data)) }, [])
+
      const handleClick = (e)=>{
-      if (username.length>=4) {
+      if (username.length>=5 && number) {
         e.preventDefault()
-        const newTodo = { subject, message, username }
+        const newTodo = { number, username }
         setTodo([...todo, { id: shortid.generate(), ...newTodo }])
-        console.log(username, subject, message, todo);
-        setSubjectI('')
-        setMessage('')
+        console.log(username, number, todo);
+        setNumber('')
         setUsername('')
-        fetch(`fwefw/addlist`, {
+        fetch(`${point}/addlist`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(newTodo),
@@ -55,18 +55,18 @@ function App() {
         </div>
          <div className={classes.name}>
          <div className='fa fa-phone' />
-         <NumberFormat onChange={(event) => setMessage(event.target.value)}
-        value={message} format="+996 (###) ######" placeholder='+996 (###) ######'  mask="_"/>
+         <NumberFormat onChange={(event) => setNumber(event.target.value)}
+        value={number} format="+996 (###) ######" placeholder='+996 (###) ######'  mask="_"/>
         </div>
         <button onClick={handleClick}>Send</button>
       {isSend ?
         <div className={classes.modal} >
-       <h2 className={classes.modalh2}>Thank you</h2>
-       <div className={classes.modaltext}>We will answer your request</div>
+       <h2 className={classes.modalh2}>Спасибо</h2>
+       <div className={classes.modaltext}>Мы обязательно позвоним по оставленному вами номеру</div>
        <div className={classes.animation}>
       <Animation/>
        </div>
-       <button onClick={modul} className={classes.modalB}>Back to form</button>
+       <button onClick={modul} className={classes.modalB}>Вернуться к форме заявки</button>
         </div> : null}
     </div>
    </div>

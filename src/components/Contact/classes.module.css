@@ -42,6 +42,7 @@ position: relative;
 .modalh2{
     text-align: center;
     font-weight: 700;
+    margin: 10px 0px 0px 0px ;
 }
 .modaltext{
     text-align: center;
@@ -49,7 +50,12 @@ position: relative;
     padding: 0 4px 0 4px;
     line-height: 20px;
 }
-
+.animation{
+    margin-left: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 
 
 .contactContainer{
