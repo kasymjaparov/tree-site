@@ -45,7 +45,7 @@ svg{
   margin-top: 0;
 }
 .sausage-dog-animation {
-  height: 25rem;
+  height: 15rem;
   max-height: 80vh;
   max-width: 80vw;
  margin-top: 0;
@@ -385,10 +385,6 @@ svg{
   }
 }
 @media(max-width:350px){
-
-  .sausage-dog-animation {
-   margin-top: -70px;
-  }
   .block{
     min-height: calc(90vh);
   }

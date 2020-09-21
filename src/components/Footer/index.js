@@ -9,7 +9,7 @@ function App() {
 <span><a target='_blank' rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=+996704614512'><i className='fa fa-whatsapp'></i></a ></span>
 <span><a target='_blank' rel="noopener noreferrer" href='tel:+996704614512'><i className='fa fa-phone'></i></a ></span>
      </div>
-
+<span className='cert'> &copy;  Все права сертифицированы</span>
    </footer>
   )
 }

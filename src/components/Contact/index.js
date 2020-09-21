@@ -10,6 +10,7 @@ function App() {
   const[number, setNumber]=React.useState('')
   const [todo, setTodo] = React.useState([])
   const [isSend, setIsSend] = React.useState(false)
+  const [isOk, setIsok] = React.useState(false)
 
   React.useEffect(() => {
   fetch(`${point}/list`)
@@ -34,7 +35,9 @@ function App() {
           })
           setIsSend(true) 
       }
-      
+      else{
+        setIsok(true)
+      }
      }
       const modul = ()=>{
         setIsSend(false)
@@ -59,6 +62,7 @@ function App() {
         value={number} format="+996 (###) ######" placeholder='+996 (###) ######'  mask="_"/>
         </div>
         <button onClick={handleClick}>Send</button>
+      {isOk&& <div className={classes.warn}>*Заполните все формы,  ваше имя должно быть больше 4</div>}
       {isSend ?
         <div className={classes.modal} >
        <h2 className={classes.modalh2}>Спасибо</h2>

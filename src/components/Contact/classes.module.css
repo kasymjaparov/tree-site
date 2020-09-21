@@ -95,7 +95,10 @@ position: relative;
     width: calc(100% - 65px);
     padding: 10px;
 }
-
+.warn{
+    margin: 10px 0px 0px 0px ;
+    color: rgb(141, 22, 22);
+}
 .name input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: black;
   }
