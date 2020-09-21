@@ -17,7 +17,7 @@ function App() {
       <ul>
       <li><NavLink activeClassName={classes.activeLink} to="/request" exact>Оставить заявку</NavLink></li>
         <li><NavLink activeClassName={classes.activeLink} to="/dostavka" exact>Доставка</NavLink></li>
-        <li><NavLink activeClassName={classes.activeLink} to="/portfolio" exact>Отзывы</NavLink></li>
+        <li><NavLink activeClassName={classes.activeLink} to="/reviews" exact>Отзывы</NavLink></li>
         
       </ul>
     </nav>

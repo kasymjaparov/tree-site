@@ -1,10 +1,11 @@
 .dostavka{
     box-shadow: 0 0 10px rgb(0, 0, 0);
     background: rgba(248, 241, 241, 0.1);
-   height: 90%;
+   height: 400px;
     width: 50%;
     margin: 0 auto 0 auto ;
     border-radius: 5px;
+    padding: 0px 0px 20px 0px ;
 }
 .dostavka h2{
 color:#000000;
@@ -35,9 +36,7 @@ font-weight: 700;
 @media(max-width:527px){
     .dostavka{
         width: 98%;    
-    }
-    .dostavka{
-      box-shadow: 0 0 0;
+        box-shadow: 0 0 0;
     }
     .dostavka h2{
       padding: 5px 0px 0px 0px ;

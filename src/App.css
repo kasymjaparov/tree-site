@@ -28,11 +28,12 @@ body{
 .block{
   background-size: 100%;
   background-attachment: fixed;
-  height: calc(100vh - 172px);
+  min-height: calc(100vh - 172px);
   margin: 0px 0px 0px 0px ;
   display: flex;
+  justify-content: center;
   align-items: center;
-  background: rgb(247, 234, 210);
+  background: rgb(247, 240, 227);
 }
 .animation{
   margin-left: 20px;
@@ -387,5 +388,8 @@ svg{
 
   .sausage-dog-animation {
    margin-top: -70px;
+  }
+  .block{
+    min-height: calc(90vh);
   }
 }
