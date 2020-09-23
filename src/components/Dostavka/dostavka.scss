@@ -1,5 +1,5 @@
 .dostavka{
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+    // box-shadow: 0 0 10px rgb(0, 0, 0);
     background: rgba(248, 241, 241, 0.1);
    height: 400px;
     width: 50%;
@@ -21,6 +21,10 @@ font-weight: 700;
   text-align: center;
   font-weight: 600;
   line-height: 30px;
+}
+.dostavka_desc1 span{
+  padding-bottom: 3px;
+  border-bottom: 2px solid black;
 }
 .dostavka_wrap{
   width: 90%;

@@ -33,7 +33,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(247, 240, 227);
+  background: rgb(255, 255, 255);
 }
 .animation{
   margin-left: 20px;

@@ -1,6 +1,6 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 .reviews{
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+    // box-shadow: 0 0 10px rgb(0, 0, 0);
     background: rgba(248, 241, 241, 0.1);
    height: 90%;
     width: 50%;
@@ -37,7 +37,7 @@ transition: all 0.3s ease;
     margin: 0px 0px 8px 0px ;
 }
 .review_rev_item{
-    margin: 0px 0px 5px 0px ;
+    margin: 0px 0px 30px 0px ;
 }
 .reviews_revs{
     display: flex;
@@ -65,7 +65,7 @@ transition: all 0.3s ease;
   @media(max-width:350px){
     .reviews h2{
       font-size: 25px;
-      padding: 5px 0px 0px 0px ;
+      padding: 10px 0px 0px 0px ;
       }
   }
   

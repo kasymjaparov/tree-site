@@ -61,7 +61,7 @@ function App() {
          <NumberFormat onChange={(event) => setNumber(event.target.value)}
         value={number} format="+996 (###) ######" placeholder='+996 (###) ######'  mask="_"/>
         </div>
-        <button onClick={handleClick}>Send</button>
+        <button onClick={handleClick}>Отправить</button>
       {isOk&& <div className={classes.warn}>*Заполните все формы,  ваше имя должно быть больше 4</div>}
       {isSend ?
         <div className={classes.modal} >

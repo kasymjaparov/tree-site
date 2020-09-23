@@ -20,7 +20,7 @@ padding: 0px 0px 20px 0px ;
     width: 50%;
     height: 100%;
     border-radius: 5px;
-    box-shadow: 0 0 10px black;
+    /* box-shadow: 0 0 10px black; */
 position: relative;
 }
 .contacth2{
