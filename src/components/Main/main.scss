@@ -46,10 +46,16 @@ background: url('../../img/blue2.jpg') center / cover no-repeat;
   font-weight: 700;
 }
 .main_elki_block_desc span:nth-child(2){
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   line-height: 20px;
   
+}
+.main_elki_block_desc span:nth-child(3),.main_elki_block_desc span:nth-child(4),.main_elki_block_desc span:nth-child(5){
+margin: 7px 0px 0px 10px ;
+font-size: 17px;
+border-bottom: 1px solid black;
+width: 110px;
 }
 @media(max-width:881px){
   .main_elki_block_img{
