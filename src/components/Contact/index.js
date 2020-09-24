@@ -1,5 +1,5 @@
 import React from 'react'
-import NumberFormat from 'react-number-format';
+import NumberFormat from 'react-number-format'
 import classes from './classes.module.css'
 import Animation from './Animation'
 import point from '../../point.js'
@@ -16,7 +16,6 @@ function App() {
   fetch(`${point}/list`)
       .then((response) => response.json())
       .then((data) => setTodo(data)) }, [])
-
      const handleClick = (e)=>{
       if (username.length>=5 && number) {
         e.preventDefault()
@@ -35,13 +34,9 @@ function App() {
           })
           setIsSend(true) 
       }
-      else{
-        setIsok(true)
-      }
+      else setIsok(true)
      }
-      const modul = ()=>{
-        setIsSend(false)
-      }
+      const modul = () => setIsSend(false) 
   return (
    <div className={classes.contact}>
     <div className={classes.contactWrap}>

@@ -24,6 +24,7 @@ h1,h2,h3,h4,h5,h6{font-weight: 400;}
 /* Обнуление */
 body{
   height: 100vh;
+  user-select: none;
 }
 body::-webkit-scrollbar {
   width: 0;

@@ -9,7 +9,6 @@ function App(props) {
      <div className="main">
        <div className="main_wrap">
          <div className="main_elki-row">
-
            <div className="main_elki_block">
              <div className="main_elki_block_img">
              <Carousel>
