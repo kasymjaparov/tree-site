@@ -25,6 +25,19 @@ h1,h2,h3,h4,h5,h6{font-weight: 400;}
 body{
   height: 100vh;
 }
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+/* ie 10+ */
+body {
+  -ms-overflow-style: none;
+}
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+body {
+  overflow: -moz-scrollbars-none;
+}
 .block{
   background-size: 100%;
   background-attachment: fixed;
