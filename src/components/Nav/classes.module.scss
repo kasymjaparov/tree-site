@@ -4,7 +4,7 @@
   background: rgb(77, 158, 58);;
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 16;
      font-family: 'Yanone Kaffeesatz', sans-serif;
     box-shadow: 0px 10px 5px #27272780;
 }
@@ -17,8 +17,8 @@
     justify-content:space-between ;
 }
 .logo img{
- height: 100px;width: 137px;
- margin: 30px 0px 0px 0px;
+ height: 100px;width: 120px;
+ margin: 28px 0px 0px 0px;
 
  transform: rotate(90deg);
  }

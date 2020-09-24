@@ -1,7 +1,7 @@
 import React from 'react'
 import {NavLink } from 'react-router-dom'
 import classes from './classes.module.scss'
-import tree from '../../img/logo-tree.png'
+import tree from '../../img/logotree2.png'
 import Menu from './Menu'
 
 function App() {
