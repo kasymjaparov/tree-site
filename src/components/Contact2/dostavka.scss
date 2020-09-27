@@ -1,0 +1,74 @@
+.dostavka{
+    // box-shadow: 0 0 10px rgb(0, 0, 0);
+    background: rgba(248, 241, 241, 0.1);
+   height: 400px;
+    width: 50%;
+    margin: 0 auto 0 auto ;
+    border-radius: 5px;
+    padding: 0px 0px 20px 0px ;
+}
+.dostavka h2{
+color:#000000;
+padding: 20px 0px 0px 0px ;
+font-size: 40px;
+text-align:  center;
+font-weight: 700;
+
+}
+.dostavka_desc{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+  font-weight: 600;
+  line-height: 30px;
+}
+.dostavka_desc i:first-child{
+  color: rgb(107, 223, 107);
+}
+
+.dostavka_desc i {
+  color: rgb(77, 87, 226);
+ padding: 0px 10px 0px 0px ;
+ 
+}
+.dostavka_desc a{
+  border-bottom: 1px solid black;
+ 
+}
+
+.dostavka_wrap{
+  width: 90%;
+  margin: 0 auto 0 auto ;
+}
+
+
+@media(max-width:850px){
+  .dostavka{
+      width: 70%;    
+  }
+}
+@media(max-width:527px){
+    .dostavka{
+        width: 98%;    
+        box-shadow: 0 0 0;
+    }
+    .dostavka h2{
+      padding: 5px 0px 0px 0px ;
+      }
+    
+}
+@media(max-width:350px){
+ 
+  .dostavka h2{
+    font-size: 25px;
+    padding: 5px 0px 0px 0px ;
+    }
+    .dostavka_desc1{
+        font-size: 15px;
+    }
+}
+
+
+
+
+ 
