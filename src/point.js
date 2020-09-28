@@ -1,2 +1,2 @@
-const point = 'https://secret-atoll-08160.herokuapp.com'
+const point = 'https://elki-api.herokuapp.com'
 export default point

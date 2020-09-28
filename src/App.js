@@ -20,7 +20,6 @@ function App() {
      <Block>
        <Switch>
        <Route path='/' component={Main2} exact/>
-         <Route path='/contact' component={Contact} exact/>
          <Route path='/dostavka' component={Dostavka} exact/>
          <Route path='/reviews' component={Reviews} exact/>
          <Route path='/request' component={Request} exact/>
